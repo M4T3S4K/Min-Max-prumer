@@ -11,6 +11,7 @@ public class MinMaxPrumer {
         int soucet = 0, pocet = 1;
         // nekonečná smyčka
     while (true){
+        //zvětším počítadlo vložených čísel
         pocet++;
         System.out.print("vlož"+pocet+ ".číslo: ");
         int vstup = sc.nextInt();
